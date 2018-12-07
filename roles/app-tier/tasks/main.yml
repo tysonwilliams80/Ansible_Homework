@@ -1,11 +1,11 @@
 ---
 
-- name: install {{ payload }}
+- name: install tomcat
   yum:
     name: "{{ payload }}"
     state: latest
 
-- name: enable {{ payload }} at boot
+- name: enable tomcat
   service:
     name: "{{ payload }}"
     enabled: yes
