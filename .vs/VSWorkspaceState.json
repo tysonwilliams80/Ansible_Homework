@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\roles",
+    "\\roles\\app-tier",
+    "\\roles\\app-tier\\defaults",
+    "\\roles\\app-tier\\meta",
+    "\\roles\\app-tier\\Templates",
+    "\\roles\\app-tier\\tests",
+    "\\roles\\app-tier\\vars",
+    "\\roles\\base-config",
+    "\\roles\\base-config\\Templates",
+    "\\roles\\db-tier\\templates"
+  ],
+  "SelectedNode": "\\roles\\app-tier\\defaults\\main.yml",
+  "PreviewInSolutionExplorer": false
+}
