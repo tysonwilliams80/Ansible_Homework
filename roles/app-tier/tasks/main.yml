@@ -25,8 +25,11 @@
   template:
     src: index.html.j2
     dest: "{{ tomcat_web_root }}/index.html"
-    remote_src: true
+    owner: root
+    group: root
     mode: 0644
+  notify: restart tomcat
+
 
 - name: restart tomcat
   service:
