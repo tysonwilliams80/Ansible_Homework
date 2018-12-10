@@ -25,7 +25,7 @@
   template:
     src: index.html.j2
     dest: "{{ tomcat_web_root }}/index.html"
-    remote_src: yes
+    remote_src: true
     mode: 0644
 
 - name: restart tomcat
